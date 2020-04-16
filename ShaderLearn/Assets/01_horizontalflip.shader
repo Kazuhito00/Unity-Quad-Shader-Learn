@@ -48,6 +48,7 @@
             {
                 float2 uv = i.uv;
 
+                // UV座標の範囲は0～1
                 uv.x += (1 - 2 * uv.x);
 
                 // sample the texture
