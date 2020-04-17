@@ -50,7 +50,7 @@
 
                 // UV座標の範囲は0～1のため、1から減算することで値を逆転させる
                 uv.x = 1 - uv.x;
-				uv.y = 1 - uv.y;
+                uv.y = 1 - uv.y;
 
                 fixed4 col = tex2D(_MainTex, uv);
                 UNITY_APPLY_FOG(i.fogCoord, col);
