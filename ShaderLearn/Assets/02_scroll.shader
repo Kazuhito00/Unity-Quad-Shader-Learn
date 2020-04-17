@@ -46,12 +46,12 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
-				// _Timeでステージのロードからの経過時間を取得可能
-				// _Time[0]は1 / 20、_Time[1]は1、_Time[2]は2、_Time[3]は3倍
-				// float4型のため0はx、1はy、2はz、3はwに対応し、_Time.x、_Time.y、_Time.z、_Time.wでも指定可能
-				float2 uv = i.uv;
-				uv.x += frac(_Time[0]);
-				// uv.x += frac(_SinTime[3]);
+                // _Timeでステージのロードからの経過時間を取得可能
+                // _Time[0]は1 / 20、_Time[1]は1、_Time[2]は2、_Time[3]は3倍
+                // float4型のため0はx、1はy、2はz、3はwに対応し、_Time.x、_Time.y、_Time.z、_Time.wでも指定可能
+                float2 uv = i.uv;
+                uv.x += frac(_Time[0]);
+                // uv.x += frac(_SinTime[3]);
 
                 fixed4 col = tex2D(_MainTex, uv);
                 UNITY_APPLY_FOG(i.fogCoord, col);
