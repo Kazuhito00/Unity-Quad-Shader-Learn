@@ -49,7 +49,9 @@
 				float threshold = 0.75;
 				fixed4 col = tex2D(_MainTex, i.uv);
 
+				// ITU-R Rec BT.601規格でのグレースケール変換
 				float grayscale = dot(col.rgb, fixed3(0.299, 0.587, 0.144));
+				// 閾値より大きい値を白、閾値以下の値を黒に塗りつぶす
 				col = grayscale > threshold ? fixed4(1, 1, 1, 1) : fixed4(0, 0, 0, 1)
 
 				UNITY_APPLY_FOG(i.fogCoord, col);

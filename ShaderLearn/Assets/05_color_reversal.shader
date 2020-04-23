@@ -48,6 +48,7 @@
             {
 				fixed4 col = tex2D(_MainTex, i.uv);
 
+				// カラー値を反転させ、+1することで0～1の範囲におさめる
 				col = ((-1) * col) + 1;
 
                 UNITY_APPLY_FOG(i.fogCoord, col);

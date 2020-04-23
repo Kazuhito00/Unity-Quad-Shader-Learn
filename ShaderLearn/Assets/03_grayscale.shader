@@ -48,6 +48,7 @@
             {
                 fixed4 col = tex2D(_MainTex, i.uv);
 
+				// ITU-R Rec BT.601規格でのグレースケール変換
 				float grayscale = dot(col.rgb, fixed3(0.299, 0.587, 0.144));
 				col = fixed4(grayscale, grayscale, grayscale, 1)
 
