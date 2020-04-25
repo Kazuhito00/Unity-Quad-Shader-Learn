@@ -44,3 +44,5 @@ Unity-Quad-Shader-Learn\ShaderLearn\Assets\Scenes\SampleScene.unity
  
 # License 
 Unity-Quad-Shader-Learn is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+
+また、画像は[フリー素材ぱくたそ](https://www.pakutaso.com)様の写真を利用しています。
