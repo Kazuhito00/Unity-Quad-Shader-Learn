@@ -5,8 +5,7 @@ Unityの平面シェーダーの勉強の記録です。
 
 # Requirement
  
-以下のバージョンで動作確認をしています。<br>
-* Unity 2018.3.9f1 (or Later)
+* Unity 2018.3.9f1 (or Later)<br>2018以前のバージョンでも動作すると思います。
  
 # Installation
 
