@@ -5,13 +5,13 @@ Unityのシェーダーの勉強の記録です。
 
 # Requirement
  
-* Unity \*.\*.\*(or Later)
+以下のバージョンで動作確認をしています。<br>
+* Unity 2018.3.9f1 (or Later)
  
 # Installation
 
-
-# Usage
-
+以下をUnityでオープンしてください。
+Unity-Quad-Shader-Learn\ShaderLearn\Assets\Scenes\SampleScene.unity
 
 # Contents
 |1：-|2：-|
