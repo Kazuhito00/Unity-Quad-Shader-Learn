@@ -13,6 +13,8 @@ Unityの平面シェーダーの勉強の記録です。
 以下をUnityでオープンしてください。<br>
 Unity-Quad-Shader-Learn\ShaderLearn\Assets\Scenes\SampleScene.unity
 
+![2020-04-25 (10)](https://user-images.githubusercontent.com/37477845/80282565-02f40700-874d-11ea-8bf9-a89310340573.png)
+
 # Contents
 |00：None(加工無し)|01：flip(反転)|
 :---:|:---:
@@ -34,14 +36,7 @@ Unity-Quad-Shader-Learn\ShaderLearn\Assets\Scenes\SampleScene.unity
 :---:|:---:
 |![2020-04-25 (8)](https://user-images.githubusercontent.com/37477845/80282563-025b7080-874d-11ea-8e38-a69d41543f7c.png)|![2020-04-25 (9)](https://user-images.githubusercontent.com/37477845/80282564-02f40700-874d-11ea-80b0-28b0d20e5564.png)|
 
-![2020-04-25 (10)](https://user-images.githubusercontent.com/37477845/80282565-02f40700-874d-11ea-8bf9-a89310340573.png)
-
-
-
 その他、順次追加予定。。。
-
-# Note
-
 
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
