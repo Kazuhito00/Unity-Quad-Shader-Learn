@@ -13,6 +13,7 @@ Unityの平面シェーダーの勉強の記録です。
 Unity-Quad-Shader-Learn\ShaderLearn\Assets\Scenes\SampleScene.unity
 
 動作を確認する際は、以下のようにQuadオブジェクトのShaderの適用を変更してください。
+
 ![2020-04-25 (10)](https://user-images.githubusercontent.com/37477845/80282565-02f40700-874d-11ea-8bf9-a89310340573.png)
 
 # Contents
