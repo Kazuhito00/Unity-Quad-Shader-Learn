@@ -37,6 +37,10 @@ Unity-Quad-Shader-Learn\ShaderLearn\Assets\Scenes\SampleScene.unity
 :---:|:---:
 |![2020-04-25 (8)](https://user-images.githubusercontent.com/37477845/80282563-025b7080-874d-11ea-8e38-a69d41543f7c.png)|![2020-04-25 (9)](https://user-images.githubusercontent.com/37477845/80282564-02f40700-874d-11ea-80b0-28b0d20e5564.png)|
 
+|10：blur(ぼかし)|
+:---:
+|![blur](https://user-images.githubusercontent.com/37477845/83158232-7d92b680-a13f-11ea-9733-691bbf9849b1.png)|
+
 その他、順次追加予定。。。
 
 # Author
